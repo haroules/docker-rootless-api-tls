@@ -1,0 +1,2 @@
+Environment=DOCKERD_ROOTLESS_ROOTLESSKIT_FLAGS="-p 0.0.0.0:2376:2376/tcp"
+ExecStart=/usr/bin/dockerd-rootless.sh -H unix:///run/user/1000/docker.sock -H tcp://0.0.0.0:2376 --tlsverify --tlscacert=/home/name/.docker/certs/ca-cert.pem --tlscert=/home/name/.docker/certs/server-cert.pem --tlskey=/home/name/.docker/certs/server-key.pem
