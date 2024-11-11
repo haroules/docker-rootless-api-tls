@@ -2,11 +2,12 @@
 Example of how to run docker rootless, and expose the api via TLS
 This example is known to run on Ubuntu 23 and 24, easily adaptable to other distros
 
-setup.sh is commented.  Not expected to necessarily run, but more of a "guide".
+setup.sh is commented.  Not expected to necessarily run, but more of a "guide".  
+The documentation on running rootless and exposing API wasn't the greatest, so this was written to help.
+THere's doesn't seem to be a good resource for using docker with self signed certs either.
 
 more info on docker rootless:
 https://docs.docker.com/engine/security/rootless/
-
 
 ## High Level Steps (detailed in setup.sh)
 1. Install Docker, Containerd and other requirements
