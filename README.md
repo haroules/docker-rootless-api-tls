@@ -4,7 +4,11 @@ This example is known to run on Ubuntu 23 and 24, easily adaptable to other dist
 
 setup.sh is commented.  Not expected to necessarily run, but more of a "guide".
 
-## High Level Steps
+more info on docker rootless:
+https://docs.docker.com/engine/security/rootless/
+
+
+## High Level Steps (detailed in setup.sh)
 1. Install Docker, Containerd and other requirements
 2. Run setup-rootless script packaged with Docker Community
 3. prevent docker from accidentally being start and run as root
